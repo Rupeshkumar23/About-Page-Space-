@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+  </head>
+  <body bgColor="#192a56" text="#0097e6">
+    <section id="registration">
+      <h2 align="center"><u>Registration Form</u>📄</h2>
+      <form align="center"  action="#" method="POST">
+        <table align="center" border="10">
+          <tr>
+            <td>Name:</td>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" id="password" name="password" /></td>
+          </tr>
+          <tr>
+            <td>Phone Number:</td>
+            <td><input type="tel" id="phone" name="phone" /></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Language:</td>
+            <td>
+              <select id="language" name="language">
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Zip Code:</td>
+            <td><input type="number" id="zip" name="zip" /></td>
+          </tr>
+          <tr>
+            <td>About:</td>
+            <td>
+              <textarea
+                id="about"
+                name="about"
+                rows="4"
+                cols="50"
+                placeholder="Write about yourself..."
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="Register" /></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+
+    <footer>
+      <p align="center">
+        <em> <b>Thank you for exploring the wonders of space exploration with us!</b></em>
+      </p>
+    </footer>
+  </body>
+</html>
